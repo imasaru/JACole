@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xkbConfigRegistry SYSTEM "xkb.dtd">
+<xkbConfigRegistry version="1.1">
+  <layoutList>
+    <layout>
+      <configItem>
+        <name>jp-colemak</name>
+        
+        <shortDescription>ja</shortDescription>
+        <description>Japanese (Colemak)</description>
+        <languageList>
+          <iso639Id>jpn</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>kana_colemak</name>
+            <description>Japanese (Kana) (Colemak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>kana86_colemak</name>
+            <description>Japanese (Kana 86) (Colemak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>OADG109A_colemak</name>
+            <description>Japanese (OADG 109A) (Colemak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mac_colemak</name>
+            <description>Japanese (Macintosh) (Colemak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak_colemak</name>
+            <description>Japanese (Dvorak) (Colemak)</description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+  </layoutList>
+

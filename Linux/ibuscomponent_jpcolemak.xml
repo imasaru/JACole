@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component>
+	<name>org.freedesktop.IBus.Simple</name>
+	<description>A table based simple engine</description>
+	<exec>/usr/lib/ibus/ibus-engine-simple</exec>
+	<version>1.5.17</version>
+	<author>Peng Huang &lt;shawn.p.huang@gmail.com&gt;</author>
+	<license>GPL</license>
+	<homepage>https://github.com/ibus/ibus/wiki</homepage>
+	<textdomain>ibus</textdomain>
+
+-----
+<!-- Copy this <engine> into 
+		<engine>
+			<name>xkb:jp-colemak::ja</name>
+			<language>ja</language>
+			<license>GPL</license>
+			<author>imasaru &lt;evanmr4@gmail.com&gt;</author>
+			<layout>jp-colemak</layout>
+<!--			<layout_variant>colemak</layout_variant> -->
+			<longname>Japanese (Colemak)</longname>
+			<description>Japanese (Colemak)</description>
+                        <icon>ibus-keyboard</icon>
+			<rank>1</rank>
+		</engine>
+		
+-----
+	</engines>
+</component>
