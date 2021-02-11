@@ -4,9 +4,10 @@
     - rename to `jpcolemak`
     - symlink to `/usr/share/X11/xkb/symbols`
 
-2. **xkbkeycodes_jpcolemak.xml**
+2. **xkbrulesevdev_jpcolemak.xml**
     - rename to `jpcolemak.xml`
-    - symlink to `/usr/share/X11/xkb/keycodes`
+    - copy layout `jpcolemak` from file contents
+    - save in `/usr/share/X11/xkb/rules/evdev.xml`
 
 3. **ibuscomponent_jpcolemak.xml**
     - copy IBus engine `xkb:jpcolemak::ja` from file contents

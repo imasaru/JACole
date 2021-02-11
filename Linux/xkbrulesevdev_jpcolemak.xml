@@ -4,8 +4,7 @@
   <layoutList>
     <layout>
       <configItem>
-        <name>jp-colemak</name>
-        
+        <name>jpcolemak</name>
         <shortDescription>ja</shortDescription>
         <description>Japanese (Colemak)</description>
         <languageList>
