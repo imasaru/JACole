@@ -1,4 +1,4 @@
-### Directory Guide
+### Directory Guide for Linux
 
 1. **xkbsymbols_jpcolemak**
     - rename to `jpcolemak`
