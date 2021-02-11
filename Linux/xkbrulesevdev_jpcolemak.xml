@@ -2,6 +2,10 @@
 <!DOCTYPE xkbConfigRegistry SYSTEM "xkb.dtd">
 <xkbConfigRegistry version="1.1">
   <layoutList>
+
+// Copy layout into /usr/share/X11/xkb/rules/evdev.xml  
+
+...
     <layout>
       <configItem>
         <name>jpcolemak</name>
@@ -11,38 +15,7 @@
           <iso639Id>jpn</iso639Id>
         </languageList>
       </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>kana_colemak</name>
-            <description>Japanese (Kana) (Colemak)</description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>kana86_colemak</name>
-            <description>Japanese (Kana 86) (Colemak)</description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>OADG109A_colemak</name>
-            <description>Japanese (OADG 109A) (Colemak)</description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>mac_colemak</name>
-            <description>Japanese (Macintosh) (Colemak)</description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>dvorak_colemak</name>
-            <description>Japanese (Dvorak) (Colemak)</description>
-          </configItem>
-        </variant>
-      </variantList>
     </layout>
-  </layoutList>
+...
 
+  </layoutList>
