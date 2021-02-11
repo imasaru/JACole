@@ -9,21 +9,20 @@
 	<homepage>https://github.com/ibus/ibus/wiki</homepage>
 	<textdomain>ibus</textdomain>
 
------
-<!-- Copy this <engine> into 
+		-----
+		<!-- Copy engine into simple.xml -->
 		<engine>
-			<name>xkb:jp-colemak::ja</name>
+			<name>xkb:jpcolemak::ja</name>
 			<language>ja</language>
 			<license>GPL</license>
 			<author>imasaru &lt;evanmr4@gmail.com&gt;</author>
-			<layout>jp-colemak</layout>
-<!--			<layout_variant>colemak</layout_variant> -->
+			<layout>jpcolemak</layout>
 			<longname>Japanese (Colemak)</longname>
 			<description>Japanese (Colemak)</description>
                         <icon>ibus-keyboard</icon>
 			<rank>1</rank>
 		</engine>
-		
------
+		-----
+
 	</engines>
 </component>

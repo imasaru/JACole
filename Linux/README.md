@@ -9,5 +9,5 @@
     - symlink to `/usr/share/X11/xkb/keycodes`
 
 3. **ibuscomponent_jpcolemak.xml**
-    - copy IBus engine `xkb:jp-colemak::ja` from file contents
+    - copy IBus engine `xkb:jpcolemak::ja` from file contents
     - save in `/usr/share/ibus/component/simple.xml`
