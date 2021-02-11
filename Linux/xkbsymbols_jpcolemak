@@ -4,7 +4,7 @@
 default  partial alphanumeric_keys
 xkb_symbols "106_colemak" {
 
-    include "jp-colemak(common_colemak)"
+    include "jpcolemak(common_colemak)"
     name[Group1]= "Japanese (Colemak)";
 
     key <AE10> { [ 0, asciitilde	] };
@@ -112,7 +112,7 @@ xkb_symbols "henkan_colemak" {
 partial alphanumeric_keys
 xkb_symbols "OADG109A_colemak" {
 
-    include "jp-colemak(common_colemak)"
+    include "jpcolemak(common_colemak)"
     name[Group1]= "Japanese (OADG 109A) (Colemak)";
 
     key <AE10> { [ 0		] };
@@ -127,8 +127,8 @@ xkb_symbols "kana86_colemak" {
     include "pc(editing)"
     include "keypad(numoperdecsep)"
     include "altwin(menu)"
-    include "jp-colemak(kana_colemak)"
-    include "jp-colemak(OADG109A_colemak)"
+    include "jpcolemak(kana_colemak)"
+    include "jpcolemak(OADG109A_colemak)"
     name[Group1]= "Japanese (Kana 86) (Colemak)";
 
     key  <ESC> {	[ Escape	]	};
@@ -244,7 +244,7 @@ xkb_symbols "nicola_f_bs_colemak" {
 // Copied from macintosh_vndr/jp
 partial alphanumeric_keys
 xkb_symbols "mac_colemak" {
-    include "jp-colemak(kana_colemak)"
+    include "jpcolemak(kana_colemak)"
     name[Group1]= "Japanese (Macintosh) (Colemak)";
 
     replace key <CAPS> { [ Caps_Lock ] };
@@ -257,7 +257,7 @@ xkb_symbols "hztg_escape_colemak" {
 
 partial alphanumeric_keys
 xkb_symbols "dvorak_colemak" {
-    include "jp-colemak(OADG109A_colemak)"
+    include "jpcolemak(OADG109A_colemak)"
     name[Group1]= "Japanese (Dvorak) (Colemak)";
 
     key <AE11> { [ at, grave		] };

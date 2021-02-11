@@ -1,7 +1,7 @@
 ### Directory Guide
 
-1. **xkbsymbols_jp-colemak**
-    - rename to `jp-colemak`
+1. **xkbsymbols_jpcolemak**
+    - rename to `jpcolemak`
     - symlink to `/usr/share/X11/xkb/symbols`
 
 2. **xkbkeycodes_jpcolemak.xml**
